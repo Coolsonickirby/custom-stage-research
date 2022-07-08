@@ -1,0 +1,1875 @@
+- Node: __root
+- Node: global
+	 - Field Type: 0x4487E306 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 2168618185
+
+- Node: editor
+	 - Field Type: 0xC23CA - Hash Len: 0xa
+	 - Data Type: int
+	 - Data: 44
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [0.9396926164627075, 0.3420201241970062, 0.0, 0.0, -0.3882390856742859, 1.0666781663894653, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -82.45281982421875, 33.926631927490234, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-22.5, -20.0, -17.5, -20.0, -7.5, -25.0, 2.5, -25.0, 17.5, -20.0, 27.5, -10.0, 22.5, 25.0, 17.5, 25.0, 12.5, 20.0, -12.5, 20.0, -22.5, 15.0, -27.5, 10.0, -27.5, 5.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 3
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 2
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [0.9396926164627075, 0.3420201241970062, 0.0, 0.0, -0.3882390856742859, 1.0666781663894653, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -33.78050231933594, 24.46223258972168, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [5.0, 12.5, -5.0, 12.5, -10.0, 7.5, -15.0, -2.5, -15.0, -7.5, -10.0, -12.5, -5.0, -7.5, 0.0, -12.5, 5.0, -7.5, 10.0, -7.5, 15.0, -2.5, 10.0, 2.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 3
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 3
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [0.9396926164627075, 0.3420201241970062, 0.0, 0.0, -0.3882390856742859, 1.0666781663894653, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -19.02356719970703, 57.01299285888672, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-20.0, 25.0, -15.0, 30.0, 5.0, 35.0, 15.0, 35.0, 20.0, 25.0, 20.0, 5.0, 15.0, 0.0, 5.0, -5.0, -10.0, -5.0, 5.0, -10.0, 20.0, -5.0, 10.0, -15.0, 5.0, -35.0, 5.0, -15.0, 0.0, -20.0, -5.0, -30.0, -5.0, -20.0, 0.0, -15.0, -15.0, -5.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 3
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 4
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [0.9396926164627075, 0.3420201241970062, 0.0, 0.0, -0.3882390856742859, 1.0666781663894653, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -77.19178771972656, 26.781597137451172, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-70.0, 62.5, -60.0, 42.5, -40.0, 22.5, -40.0, 7.5, -35.0, -12.5, -30.0, -17.5, -25.0, -17.5, -15.0, -22.5, 0.0, -22.5, 10.0, -17.5, 10.0, -22.5, 15.0, -22.5, 10.0, -32.5, -5.0, -32.5, 10.0, -47.5, 25.0, -52.5, 35.0, -52.5, 60.0, -47.5, 70.0, -42.5, 60.0, -52.5, 70.0, -52.5, 60.0, -57.5, 30.0, -62.5, 15.0, -62.5, 5.0, -57.5, -5.0, -47.5, -15.0, -27.5, -25.0, -22.5, -25.0, -27.5, -15.0, -47.5, 0.0, -62.5, -20.0, -47.5, -30.0, -37.5, -35.0, -27.5, -35.0, -17.5, -50.0, -12.5, -60.0, -2.5, -70.0, 22.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 3
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 5
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [0.9396926164627075, 0.3420201241970062, 0.0, 0.0, -0.3882390856742859, 1.0666781663894653, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -71.26922607421875, 47.05702209472656, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-82.5, 47.5, -82.5, 67.5, -67.5, 37.5, -47.5, 17.5, -32.5, 22.5, 7.5, 22.5, 22.5, 7.5, 22.5, 17.5, 37.5, 32.5, 47.5, 62.5, 82.5, 27.5, 82.5, 22.5, 77.5, 12.5, 77.5, 7.5, 82.5, -2.5, 77.5, -7.5, 72.5, -2.5, 72.5, 17.5, 67.5, 27.5, 57.5, 27.5, 37.5, 22.5, 32.5, 17.5, 37.5, -12.5, 52.5, -22.5, 47.5, -27.5, 47.5, -42.5, 52.5, -27.5, 57.5, -22.5, 57.5, -57.5, 47.5, -62.5, 22.5, -67.5, 12.5, -67.5, -2.5, -62.5, -17.5, -47.5, -2.5, -47.5, 2.5, -37.5, 7.5, -37.5, 17.5, -47.5, 22.5, -42.5, 27.5, -47.5, 32.5, -42.5, 37.5, -42.5, 42.5, -37.5, 42.5, -32.5, 37.5, -27.5, 32.5, -17.5, 22.5, -17.5, 17.5, -22.5, 12.5, -32.5, -2.5, -37.5, -2.5, -32.5, -12.5, -37.5, -17.5, -37.5, 2.5, -27.5, 12.5, -17.5, 7.5, 17.5, 2.5, 17.5, -2.5, 12.5, -27.5, 12.5, -37.5, 7.5, -42.5, 2.5, -42.5, -2.5, -37.5, -27.5, -42.5, -22.5, -47.5, -27.5, -52.5, -7.5, -52.5, 7.5, -72.5, 27.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 5
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 6
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [0.9396926164627075, 0.3420201241970062, 0.0, 0.0, -0.3882390856742859, 1.0666781663894653, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -108.09638977050781, 97.07227325439453, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-65.0, 15.0, -60.0, 25.0, -40.0, 40.0, -10.0, 45.0, -30.0, 35.0, -35.0, 15.0, -30.0, 0.0, -15.0, -10.0, 5.0, -15.0, 30.0, -20.0, 35.0, -30.0, 40.0, -20.0, 45.0, -15.0, 50.0, -5.0, 50.0, 0.0, 40.0, 20.0, 25.0, 35.0, 5.0, 45.0, 30.0, 40.0, 40.0, 35.0, 65.0, 10.0, 55.0, -20.0, 40.0, -35.0, 40.0, -45.0, 25.0, -30.0, -15.0, -30.0, -30.0, -35.0, -50.0, -15.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 6
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 7
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [0.9396926164627075, 0.3420201241970062, 0.0, 0.0, -0.3882390856742859, 1.0666781663894653, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -36.63676452636719, -18.856849670410156, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-47.5, 22.5, -42.5, 17.5, -37.5, 22.5, -27.5, 2.5, -17.5, -7.5, -7.5, -12.5, 7.5, -12.5, 37.5, -7.5, 47.5, -2.5, 47.5, -7.5, 17.5, -17.5, 12.5, -22.5, 2.5, -22.5, -22.5, -12.5, -37.5, 2.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 5
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 8
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [0.9396926164627075, 0.3420201241970062, 0.0, 0.0, -0.3882390856742859, 1.0666781663894653, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -93.48188781738281, 5.7526702880859375, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-37.5, 20.0, -12.5, 0.0, -7.5, 5.0, -2.5, 0.0, 2.5, 0.0, 12.5, -5.0, 22.5, -5.0, 37.5, 0.0, 17.5, -10.0, 7.5, -10.0, -2.5, -5.0, 7.5, -15.0, 2.5, -20.0, -2.5, -15.0, -2.5, -10.0, -12.5, -5.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 9
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [0.9396926164627075, 0.3420201241970062, 0.0, 0.0, -0.3882390856742859, 1.0666781663894653, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -36.94580841064453, 11.230297088623047, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-22.5, 2.5, -12.5, 2.5, -2.5, -7.5, 2.5, -2.5, 7.5, -7.5, 12.5, -2.5, 17.5, -2.5, 22.5, 2.5, 22.5, 7.5, 17.5, 2.5, 12.5, 2.5, 7.5, -2.5, 2.5, 2.5, -2.5, -2.5, -7.5, 2.5, -7.5, 7.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 10
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [0.9396926164627075, 0.3420201241970062, 0.0, 0.0, -0.3882390856742859, 1.0666781663894653, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -11.005279541015625, 56.91144561767578, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-17.5, -2.5, -2.5, -7.5, 12.5, -2.5, 17.5, 2.5, 12.5, 7.5, 7.5, 2.5, -2.5, -2.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 11
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0658385753631592, 0.38793349266052246, 0.0, 0.0, -0.3882390856742859, 1.0666781663894653, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -3.6747283935546875, -24.788923263549805, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-17.5, -7.5, -12.5, -2.5, 17.5, 7.5, 12.5, -2.5, -2.5, -7.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 12
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [0.9396926164627075, 0.3420201241970062, 0.0, 0.0, -0.3882390856742859, 1.0666781663894653, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -56.809242248535156, -29.219009399414062, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-5.0, 5.0, 0.0, 5.0, 5.0, 0.0, 5.0, -5.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 13
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [0.9396926164627075, 0.3420201241970062, 0.0, 0.0, -0.25882604718208313, 0.711118757724762, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -12.581878662109375, -19.16149139404297, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [5.0, -2.5, 5.0, 7.5, -5.0, 2.5, -5.0, -7.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 14
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [0.9396926164627075, 0.3420201241970062, 0.0, 0.0, -0.3882390856742859, 1.0666781663894653, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -103.96049499511719, 107.63751220703125, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-22.5, -17.5, -37.5, -7.5, -42.5, 7.5, -42.5, 12.5, -37.5, 27.5, -17.5, 37.5, -2.5, 37.5, 17.5, 27.5, 32.5, 12.5, 42.5, -7.5, 42.5, -12.5, 37.5, -22.5, 32.5, -27.5, 27.5, -37.5, 22.5, -27.5, -2.5, -22.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 15
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 77.5, -50.0, 0.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [2.5, 35.0, 12.5, 45.0, 22.5, 50.0, 42.5, 55.0, 52.5, 55.0, 67.5, 50.0, 82.5, 40.0, 92.5, 25.0, 97.5, 10.0, 97.5, -5.0, 92.5, -25.0, 82.5, -40.0, 67.5, -50.0, 47.5, -55.0, 37.5, -55.0, 22.5, -50.0, 7.5, -40.0, 2.5, -25.0, -47.5, -10.0, -62.5, 0.0, -67.5, 10.0, -67.5, 20.0, -97.5, 30.0, -97.5, 35.0, -87.5, 40.0, -22.5, 35.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 6
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 16
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 125.0, -45.0, 0.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [5.0, 45.0, -5.0, 45.0, -25.0, 40.0, -35.0, 30.0, -45.0, 5.0, -45.0, -10.0, -40.0, -35.0, -30.0, -45.0, -30.0, -10.0, -20.0, 10.0, -10.0, 20.0, 5.0, 10.0, 25.0, 5.0, 45.0, 10.0, 40.0, 20.0, 30.0, 35.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 3
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 17
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.125, 0.0, 0.0, 0.0, 0.0, 1.3333333730697632, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 102.5, -70.0, 0.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-20.0, -2.5, -15.0, -12.5, 0.0, -22.5, 20.0, -22.5, 0.0, -7.5, -10.0, 22.5, -10.0, -12.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 5
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 18
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.3333333730697632, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 137.5, -35.0, 0.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-22.5, 15.0, -32.5, 5.0, -2.5, 0.0, 17.5, -5.0, 32.5, -15.0, 32.5, 5.0, 12.5, 0.0, -7.5, 5.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 5
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 19
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 145.0, -72.5, 0.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-15.0, -7.5, -15.0, -2.5, -10.0, 7.5, 0.0, 12.5, 5.0, 12.5, 15.0, 7.5, 15.0, 12.5, 5.0, 17.5, -20.0, 22.5, 5.0, 22.5, 15.0, 17.5, 20.0, 12.5, 20.0, 7.5, 15.0, -7.5, 5.0, -17.5, -10.0, -22.5, -15.0, -22.5, -20.0, -17.5, -15.0, -12.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 20
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 32.5, -35.0, 0.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-42.5, 25.0, -42.5, 20.0, 17.5, 0.0, 42.5, -25.0, 37.5, 0.0, 42.5, 15.0, 22.5, 10.0, -37.5, 25.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 3
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 21
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 27.5, -37.5, 0.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-7.5, 7.5, -7.5, -2.5, -2.5, -12.5, -2.5, 7.5, 12.5, -2.5, 17.5, -12.5, 17.5, -2.5, 27.5, -7.5, 32.5, -17.5, 32.5, -7.5, 17.5, 2.5, -7.5, 12.5, -32.5, 17.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 3
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 1
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 22
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 139.5, 28.0, 0.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x466F2FFC - Hash Len: 0x6
+	 - Data Type: int
+	 - Data: 15
+
+	 - Field Type: 0x8297789C - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0xC4D52C51 - Hash Len: 0x10
+	 - Data Type: float
+	 - Data: 100.0
+
+	 - Field Type: 0xF3013A2F - Hash Len: 0x10
+	 - Data Type: float
+	 - Data: 3.0
+
+	 - Field Type: 0x8D0A4338 - Hash Len: 0x11
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 2
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 23
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [0.939692497253418, -0.34202009439468384, 0.0, 0.0, 0.3420201241970062, 0.9396926164627075, 0.0, 0.0, 0.0, 0.0, 0.9999844431877136, 0.0, 129.92173767089844, -12.229706764221191, -0.0006973742856644094, 0.9999844431877136]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x466F2FFC - Hash Len: 0x6
+	 - Data Type: int
+	 - Data: 5
+
+	 - Field Type: 0x11E45CB9 - Hash Len: 0x9
+	 - Data Type: array of floats
+	 - Data: [-5.0, -5.0, 0.0, 5.0, 5.0, -5.0]
+
+	 - Field Type: 0x5F9B864 - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x36B7A78C - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x5AB3D938 - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x47CE2CC2 - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x9709558C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0xAF6F1EE6 - Hash Len: 0x10
+	 - Data Type: float
+	 - Data: 100.0
+
+	 - Field Type: 0x6FF3FFE0 - Hash Len: 0x16
+	 - Data Type: float
+	 - Data: 0.0
+
+	 - Field Type: 0x581EF9AF - Hash Len: 0x17
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0xB31903AD - Hash Len: 0x17
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 24
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 42.5, -32.5, 40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-27.5, -7.5, -27.5, 12.5, -17.5, 67.5, -22.5, 2.5, -22.5, -2.5, -17.5, -42.5, -12.5, 7.5, -2.5, 37.5, 12.5, 57.5, 2.5, 32.5, -7.5, 2.5, -12.5, -42.5, -7.5, -42.5, 2.5, 2.5, 17.5, 32.5, 37.5, 47.5, 22.5, 27.5, 7.5, -7.5, -2.5, -42.5, 2.5, -47.5, 2.5, -52.5, 7.5, -52.5, 7.5, -57.5, 2.5, -62.5, -12.5, -67.5, -27.5, -67.5, -32.5, -62.5, -32.5, -57.5, -27.5, -52.5, -22.5, -52.5, -32.5, -47.5, -32.5, -42.5, -27.5, -37.5, -37.5, -12.5, -37.5, 7.5, -32.5, 42.5, -27.5, 62.5, -32.5, 2.5, -32.5, -2.5, -27.5, -17.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 25
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 32.5, -62.5, 40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-17.5, -12.5, -7.5, -22.5, -12.5, -27.5, -12.5, -32.5, -2.5, -37.5, -17.5, -37.5, -22.5, -32.5, -22.5, -27.5, -17.5, -22.5, -12.5, -22.5, -22.5, -17.5, -22.5, -12.5, -17.5, -7.5, -17.5, 12.5, -12.5, -12.5, -7.5, -12.5, -2.5, 37.5, -2.5, -12.5, 2.5, -12.5, 12.5, 32.5, 22.5, 32.5, 7.5, -12.5, 12.5, -17.5, 7.5, -17.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 5
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 26
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 45.0, -75.0, 0.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [5.0, 15.0, 0.0, 0.0, -15.0, -10.0, -10.0, -15.0, 5.0, -10.0, 15.0, 10.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 27
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 10.0, -20.0, 40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [5.0, 50.0, 0.0, 30.0, -5.0, -5.0, -5.0, -25.0, 5.0, -50.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 6
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 28
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 20.0, -20.0, 40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [5.0, 55.0, -5.0, 0.0, -5.0, -30.0, 0.0, -55.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 6
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 29
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 40.0, -25.0, 40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-15.0, -50.0, -10.0, 0.0, 0.0, 30.0, 15.0, 50.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 6
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 30
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 57.5, -30.0, 40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [22.5, 45.0, 2.5, 30.0, -12.5, 0.0, -22.5, -45.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 6
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 31
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 55.0, -75.0, 0.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [5.0, 10.0, -5.0, -10.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 6
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 32
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 0.875, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 32.5, -32.5, 0.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-42.5, 20.0, 22.5, 5.0, 42.5, -20.0, 32.5, -15.0, 27.5, -15.0, 27.5, -20.0, 22.5, -15.0, 22.5, -10.0, 12.5, -5.0, 12.5, -15.0, 7.5, -5.0, -7.5, 0.0, -7.5, -10.0, -12.5, 5.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 5
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 33
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 45.0, -45.0, 0.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [35.0, 30.0, 30.0, 15.0, 30.0, -10.0, 35.0, -30.0, -15.0, -15.0, -30.0, -5.0, -35.0, 5.0, -35.0, 15.0, -30.0, 10.0, -30.0, 5.0, -25.0, -5.0, -15.0, -10.0, 25.0, -20.0, 25.0, 10.0, 30.0, 30.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 5
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 34
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -52.5, 55.0, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [2.5, 15.0, 12.5, -5.0, 2.5, -5.0, 2.5, -15.0, -12.5, 10.0, 2.5, 0.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 3
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 35
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.3333333730697632, 0.0, 0.0, 0.0, 0.0, 1.6666666269302368, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -10.0, -22.5, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-15.0, -7.5, 0.0, -2.5, 15.0, 7.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 3
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 36
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 67.5, 42.5, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [7.5, 2.5, 2.5, 7.5, -2.5, 7.5, -7.5, 2.5, -7.5, -2.5, -2.5, -7.5, 2.5, -7.5, 7.5, -2.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 37
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 75.0, 52.5, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [0.0, 17.5, 0.0, -17.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 38
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 92.5, 42.5, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-7.5, 2.5, -2.5, 7.5, 2.5, 7.5, 7.5, 2.5, 7.5, -2.5, 2.5, -7.5, -2.5, -7.5, -7.5, -2.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 39
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 87.5, 42.5, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [2.5, 7.5, -2.5, 2.5, -2.5, -2.5, 2.5, -7.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 40
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 117.5, 42.5, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-2.5, 7.5, -7.5, 2.5, -7.5, -2.5, -2.5, -7.5, 2.5, -7.5, 7.5, -2.5, 7.5, 2.5, 2.5, 7.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 41
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 117.5, 47.5, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-7.5, -2.5, -2.5, 2.5, 2.5, 2.5, 7.5, -2.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 42
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 140.0, 52.5, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [0.0, 17.5, 0.0, -17.5]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 43
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 140.0, 50.0, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-5.0, 0.0, 5.0, 0.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+- Node: piece
+	 - Field Type: 0x3BC4BCD9 - Hash Len: 0x4
+	 - Data Type: short
+	 - Data: 0
+
+	 - Field Type: 0x5E237E06 - Hash Len: 0x4
+	 - Data Type: int
+	 - Data: 44
+
+	 - Field Type: 0xF83341CF - Hash Len: 0x6
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -120.0, 10.0, -40.0, 1.0]
+
+	 - Field Type: 0xB7208209 - Hash Len: 0xd
+	 - Data Type: array of floats
+	 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+- Node: properties
+	 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+	 - Data Type: array of floats
+	 - Data: [-20.0, 10.0, -5.0, 0.0, 20.0, -10.0]
+
+	 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x19862D80 - Hash Len: 0xf
+	 - Data Type: int
+	 - Data: 1
+
+	 - Field Type: 0x642D9D6C - Hash Len: 0xf
+	 - Data Type: byte
+	 - Data: b'\x01'
+
+	 - Field Type: 0x39361C88 - Hash Len: 0x10
+	 - Data Type: byte
+	 - Data: b'\x00'
+
+	 - Field Type: 0x62085D7C - Hash Len: 0x13
+	 - Data Type: byte
+	 - Data: b'\x00'
+

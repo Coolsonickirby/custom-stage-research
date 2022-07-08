@@ -1,0 +1,119 @@
+- Node: __root
+	 - Node ID: 0
+	 - Parent Node ID: 0
+
+- Node: global
+	 - Node ID: 1
+	 - Parent Node ID: 0
+		 - Field Type: seed - Hash Len: 0x4
+		 - Data Type: int
+		 - Data: 1819888407
+
+
+- Node: editor
+	 - Node ID: 2
+	 - Parent Node ID: 0
+		 - Field Type: 0xC23CA - Hash Len: 0xa
+		 - Data Type: int
+		 - Data: 2
+
+
+- Node: piece
+	 - Node ID: 3
+	 - Parent Node ID: 2
+		 - Field Type: kind - Hash Len: 0x4
+		 - Data Type: short
+		 - Data: 0
+
+		 - Field Type: name - Hash Len: 0x4
+		 - Data Type: int
+		 - Data: 1
+
+		 - Field Type: matrix - Hash Len: 0x6
+		 - Data Type: array of floats
+		 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 2.5, -22.5, 0.0, 1.0]
+
+		 - Field Type: parent_matrix - Hash Len: 0xd
+		 - Data Type: array of floats
+		 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+
+- Node: properties
+	 - Node ID: 4
+	 - Parent Node ID: 3
+		 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+		 - Data Type: array of floats
+		 - Data: [-77.5, 22.5, 77.5, 22.5, 52.5, -7.5, 12.5, -22.5, -22.5, -22.5, -57.5, -2.5]
+
+		 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+		 - Data Type: byte
+		 - Data: b'\x00'
+
+		 - Field Type: 0x19862D80 - Hash Len: 0xf
+		 - Data Type: int
+		 - Data: 8
+
+		 - Field Type: 0x642D9D6C - Hash Len: 0xf
+		 - Data Type: byte
+		 - Data: b'\x01'
+
+		 - Field Type: 0x39361C88 - Hash Len: 0x10
+		 - Data Type: byte
+		 - Data: b'\x01'
+
+		 - Field Type: 0x62085D7C - Hash Len: 0x13
+		 - Data Type: byte
+		 - Data: b'\x00'
+
+
+- Node: piece
+	 - Node ID: 5
+	 - Parent Node ID: 2
+		 - Field Type: kind - Hash Len: 0x4
+		 - Data Type: short
+		 - Data: 0
+
+		 - Field Type: name - Hash Len: 0x4
+		 - Data Type: int
+		 - Data: 3
+
+		 - Field Type: matrix - Hash Len: 0x6
+		 - Data Type: array of floats
+         # Main Layer
+         - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 2.5, -22.5, 0.0, 1.0]
+         # BG 1 Layer
+		 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -99.57687377929688, 53.18341827392578, -40.0, 1.0]
+
+		 - Field Type: parent_matrix - Hash Len: 0xd
+		 - Data Type: array of floats
+		 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+
+- Node: properties
+	 - Node ID: 6
+	 - Parent Node ID: 5
+		 - Field Type: 0x9BB309F1 - Hash Len: 0xb
+		 - Data Type: array of floats
+		 - Data: [-48.48994445800781, 19.171432495117188, 48.48993682861328, 19.171432495117188, 0.031524658203125, -19.171432495117188]
+
+		 - Field Type: 0xC32AD9EC - Hash Len: 0xe
+		 - Data Type: byte
+		 - Data: b'\x00'
+
+		 - Field Type: 0x19862D80 - Hash Len: 0xf
+		 - Data Type: int
+		 - Data: 8
+
+		 - Field Type: 0x642D9D6C - Hash Len: 0xf
+		 - Data Type: byte
+		 - Data: b'\x01'
+
+		 - Field Type: 0x39361C88 - Hash Len: 0x10
+		 - Data Type: byte
+		 - Data: b'\x01'
+
+		 - Field Type: 0x62085D7C - Hash Len: 0x13
+		 - Data Type: byte
+		 - Data: b'\x00'
+
+
