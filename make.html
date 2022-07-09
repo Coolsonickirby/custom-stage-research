@@ -12,13 +12,63 @@
             margin-top: 10px;
             border: 2px solid black;
         }
+
+        #grid {
+            display: grid;
+            grid-template: ". .";
+            gap: 10px;
+            width: 100%;
+        }
+
+        .mat-opt>*{
+            margin-left: 10px;
+        }
+
+        .color-preview {
+            width: 50px;
+            height: 15px;
+            display: inline-block;
+        }
     </style>
 </head>
 
 <body>
-    <button onclick="PATH_STARTED = !PATH_STARTED;">Toggle Path Drawing</button>
-    <canvas width="1000" height="500" id="canvas"></canvas>
+    <button onclick="setMode();">Toggle Path Drawing</button>
+    <div id="grid">
+        <canvas width="1000" height="500" id="canvas"></canvas>
+        <div id="materials"></div>
+    </div>
     <script>
+        const MATERIALS = {
+            "Dirt": "#a52a2a",
+            "Marble": "#85928F",
+            "Steel": "#CED2D7",
+            "Rubber": "#facf58",
+            "Carpet": "#c32a2a",
+            "Wood": "#a55b53",
+            "Sand": "#C2B280",
+            "Bouncy Rubber": "#024087",
+            "Grass": "#00ff00",
+            "Ice": "#e0f7fa",
+            "Sponge": "#fdfe03",
+            "Denim": "#1560BD",
+            "Paper": "#F9FBFF",
+            "Yarn": "#dad8d1",
+            "Lava": "#ff0000"
+        };
+
+        var i = 0;
+        for(var mat in MATERIALS){
+            document.getElementById("materials").innerHTML += `
+            <div class="mat-opt">
+                <input type="radio" name="type" id="${mat}" value="${i}">
+                <label for="${mat}">${mat}</label>
+                <div class="color-preview" style="background-color: ${MATERIALS[mat]}"></div>
+            </div>
+            `;
+            i += 1;
+        }
+
         var PATH_STARTED = false;
         var PATH_COORDS = [];
 
@@ -41,29 +91,36 @@
                         radius: 10,
                         outline: "#f00",
                         top: event.pointer.y,
-                        left: event.pointer.x
+                        left: event.pointer.x,
+                        selectable: false
                     });
+                    tmp_circles.push(tmp_circle);
                     canvas.add(tmp_circle);
-                } else {
-                    if (PATH_COORDS.length > 1) {
-                        var polyline = new fabric.Polyline(PATH_COORDS, {
-                            fill: 'red',
-                            stroke: 'red',
-                            strokeWidth: 5,
-                            selectable: true,
-                            evented: false,
-                        });
-                        canvas.add(polyline);
-                        objects.push(polyline);
-                        console.log(polyline);
-                        PATH_COORDS = [];
-                        canvas.remove(tmp_circle);
-                        tmp_circle = [];
-                    }
                 }
-                console.log("left click");
             }
         });
+
+
+        function setMode() {
+            PATH_STARTED = !PATH_STARTED;
+
+            if (!PATH_STARTED) {
+                var polyline = new fabric.Polyline(PATH_COORDS, {
+                    fill: MATERIALS[document.querySelector("input[name = 'type']:checked").id],
+                    strokeWidth: 5,
+                    selectable: true,
+                    evented: false,
+                });
+                polyline.set("material", document.querySelector("input[name = 'type']:checked").value);
+                canvas.add(polyline);
+                objects.push(polyline);
+                console.log(polyline);
+                tmp_circles.map(item => canvas.remove(item));
+
+                PATH_COORDS = [];
+                tmp_circle = [];
+            }
+        }
     </script>
 </body>
 
