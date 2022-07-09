@@ -7,33 +7,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="./fabric.js"></script>
+    <style>
+        #canvas {
+            margin-top: 10px;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 
 <body>
+    <button onclick="PATH_STARTED = !PATH_STARTED;">Toggle Path Drawing</button>
     <canvas width="1000" height="500" id="canvas"></canvas>
     <script>
-
         var PATH_STARTED = false;
         var PATH_COORDS = [];
 
         var objects = [];
+        var tmp_circles = [];
 
         var canvas = new fabric.Canvas('canvas', {
-            fireRightClick: true,  // <-- enable firing of right click events
+            fireRightClick: true, // <-- enable firing of right click events
             fireMiddleClick: true, // <-- enable firing of middle click events
             stopContextMenu: true, // <--  prevent context menu from showing
         });
+        fabric.Object.prototype.originX = fabric.Object.prototype.originY = 'center';
 
         canvas.on('mouse:down', (event) => {
             if (event.button === 1) {
-                if(PATH_STARTED){
+                if (PATH_STARTED) {
                     console.log(event);
+                    PATH_COORDS.push(event.pointer);
+                    var tmp_circle = new fabric.Circle({
+                        radius: 10,
+                        outline: "#f00",
+                        top: event.pointer.y,
+                        left: event.pointer.x
+                    });
+                    canvas.add(tmp_circle);
                 } else {
-                    if(PATH_COORDS.length > 1){
-                        objects.push(PATH_COORDS);
+                    if (PATH_COORDS.length > 1) {
+                        var polyline = new fabric.Polyline(PATH_COORDS, {
+                            fill: 'red',
+                            stroke: 'red',
+                            strokeWidth: 5,
+                            selectable: true,
+                            evented: false,
+                        });
+                        canvas.add(polyline);
+                        objects.push(polyline);
+                        console.log(polyline);
                         PATH_COORDS = [];
+                        canvas.remove(tmp_circle);
+                        tmp_circle = [];
                     }
-                    PATH_STARTED = true;
                 }
                 console.log("left click");
             }
