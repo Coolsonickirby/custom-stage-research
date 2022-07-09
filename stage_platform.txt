@@ -7,7 +7,7 @@
 	 - Parent Node ID: 0
 		 - Field Type: seed - Hash Len: 0x4
 		 - Data Type: int
-		 - Data: 1819888407
+		 - Data: 4029722907
 
 
 - Node: editor
@@ -31,7 +31,7 @@
 
 		 - Field Type: matrix - Hash Len: 0x6
 		 - Data Type: array of floats
-		 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 2.5, -22.5, 0.0, 1.0]
+		 - Data: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.2445831298828125, -2.6463661193847656, 0.0, 1.0]
 
 		 - Field Type: parent_matrix - Hash Len: 0xd
 		 - Data Type: array of floats
@@ -43,7 +43,7 @@
 	 - Parent Node ID: 3
 		 - Field Type: 0x9BB309F1 - Hash Len: 0xb
 		 - Data Type: array of floats
-		 - Data: [-77.5, 22.5, 77.5, 22.5, 52.5, -7.5, 12.5, -22.5, -22.5, -22.5, -57.5, -2.5]
+		 - Data: [-77.18339538574219, 0.0, 77.18339538574219, 0.0]
 
 		 - Field Type: 0xC32AD9EC - Hash Len: 0xe
 		 - Data Type: byte
@@ -59,7 +59,7 @@
 
 		 - Field Type: 0x39361C88 - Hash Len: 0x10
 		 - Data Type: byte
-		 - Data: b'\x01'
+		 - Data: b'\x00'
 
 		 - Field Type: 0x62085D7C - Hash Len: 0x13
 		 - Data Type: byte

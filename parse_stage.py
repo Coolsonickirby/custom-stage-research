@@ -34,7 +34,7 @@ data_types = {
     0x16:	"array of floats"
 }
 
-test_file = "stage_grass2 (background 1 & foreground 1).bin"
+test_file = "stage_grass.bin"
 
 data = open(test_file, "rb")
 stage_info = {}
@@ -92,11 +92,11 @@ stage_info["unk_count"] = struct.unpack("<I", data.read(4))[0]
 stage_info["sted_length"] = struct.unpack("<I", data.read(4))[0]
 stage_info["jpeg_length"] = struct.unpack("<I", data.read(4))[0]
 
-with open("header_local.json", "w+") as f:
-    json.dump(stage_info, f, indent=4)
+# with open("header_local.json", "w+") as f:
+#     json.dump(stage_info, f, indent=4)
 
-data.close()
-exit()
+# data.close()
+# exit()
 # Seek to beginning of STED
 sted_start_pos = 0x198
 data.seek(sted_start_pos, 0)
