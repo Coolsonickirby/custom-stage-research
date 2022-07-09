@@ -34,7 +34,7 @@ data_types = {
     0x16:	"array of floats"
 }
 
-test_file = "stage_grass.bin"
+test_file = "stage_python.bin"
 
 data = open(test_file, "rb")
 stage_info = {}

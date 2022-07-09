@@ -20,6 +20,7 @@
         "stage_bgm": "0xd9ffff168003485a",
         "stage_speed": 120.0
     },
+    "jpeg": "./thumb.jpg",
     "sted_info": {
         "hash_table": [
             {
