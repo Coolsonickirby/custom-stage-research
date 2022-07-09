@@ -142,7 +142,7 @@ for node in sted_info["node_table"]:
         data_type = field["data_type"]
         data.seek(sted_start_pos + field["offset"], 0)
         if data_type == 0x01: # byte
-            field["data"] = data.read(1)
+            field["data"] = int.from_bytes(data.read(1), byteorder='little')
         elif data_type == 0x08:
             field["data"] = struct.unpack("<I", data.read(4))[0]
         elif data_type == 0x0C:
@@ -191,6 +191,9 @@ with open("data.json", "w+") as f:
         "starting_points": starting_points,
         "points_src": points
     }, f, indent=4)
+
+with open("sted_info.json", "w+") as f:
+    json.dump(sted_info, f, indent=4)
 
 # Seek to beginning of JPEG and extract it
 data.seek(0xC998, 0)

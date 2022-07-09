@@ -20,7 +20,7 @@
             width: 100%;
         }
 
-        .mat-opt>*{
+        .mat-opt>* {
             margin-left: 10px;
         }
 
@@ -34,6 +34,7 @@
 
 <body>
     <button onclick="setMode();">Toggle Path Drawing</button>
+    <button onclick="save();">Export to JSON</button>
     <div id="grid">
         <canvas width="1000" height="500" id="canvas"></canvas>
         <div id="materials"></div>
@@ -58,7 +59,7 @@
         };
 
         var i = 0;
-        for(var mat in MATERIALS){
+        for (var mat in MATERIALS) {
             document.getElementById("materials").innerHTML += `
             <div class="mat-opt">
                 <input type="radio" name="type" id="${mat}" value="${i}">
@@ -80,18 +81,24 @@
             fireMiddleClick: true, // <-- enable firing of middle click events
             stopContextMenu: true, // <--  prevent context menu from showing
         });
-        fabric.Object.prototype.originX = fabric.Object.prototype.originY = 'center';
+        canvas.viewportTransform[4] = canvas.width / 2;
+        canvas.viewportTransform[5] = canvas.height / 2;
+        // fabric.Object.prototype.originX = fabric.Object.prototype.originY = 'center';
+
 
         canvas.on('mouse:down', (event) => {
             if (event.button === 1) {
                 if (PATH_STARTED) {
                     console.log(event);
-                    PATH_COORDS.push(event.pointer);
+                    PATH_COORDS.push({
+                        "x": event.pointer.x - (canvas.width / 2),
+                        "y": event.pointer.y - (canvas.height / 2),
+                    });
                     var tmp_circle = new fabric.Circle({
                         radius: 10,
                         outline: "#f00",
-                        top: event.pointer.y,
-                        left: event.pointer.x,
+                        top: event.pointer.y - (canvas.height / 2),
+                        left: event.pointer.x - (canvas.width / 2),
                         selectable: false
                     });
                     tmp_circles.push(tmp_circle);
@@ -110,6 +117,8 @@
                     strokeWidth: 5,
                     selectable: true,
                     evented: false,
+                    originX: 'center',
+                    originY: 'center',
                 });
                 polyline.set("material", document.querySelector("input[name = 'type']:checked").value);
                 canvas.add(polyline);
@@ -120,6 +129,248 @@
                 PATH_COORDS = [];
                 tmp_circle = [];
             }
+        }
+
+        function save() {
+            PATH_STARTED = false;
+            PATH_COORDS = [];
+            tmp_circles.map(item => canvas.remove(item));
+            tmp_circle = [];
+
+            var sted_data = {
+                "hash_table": [
+                    {
+                        "crc32": 2818540392,
+                        "length": 6
+                    },
+                    {
+                        "crc32": 3253298652,
+                        "length": 6
+                    },
+                    {
+                        "crc32": 3892677507,
+                        "length": 6
+                    },
+                    {
+                        "crc32": 1149756166,
+                        "length": 4
+                    },
+                    {
+                        "crc32": 3438408122,
+                        "length": 6
+                    },
+                    {
+                        "crc32": 795594,
+                        "length": 10
+                    },
+                    {
+                        "crc32": 1154091811,
+                        "length": 5
+                    },
+                    {
+                        "crc32": 1002749145,
+                        "length": 4
+                    },
+                    {
+                        "crc32": 1579384326,
+                        "length": 4
+                    },
+                    {
+                        "crc32": 4164108751,
+                        "length": 6
+                    },
+                    {
+                        "crc32": 3072360969,
+                        "length": 13
+                    },
+                    {
+                        "crc32": 2277716423,
+                        "length": 10
+                    },
+                    {
+                        "crc32": 2612201969,
+                        "length": 11
+                    },
+                    {
+                        "crc32": 3274365420,
+                        "length": 14
+                    },
+                    {
+                        "crc32": 428223872,
+                        "length": 15
+                    },
+                    {
+                        "crc32": 1680711020,
+                        "length": 15
+                    },
+                    {
+                        "crc32": 959847560,
+                        "length": 16
+                    },
+                    {
+                        "crc32": 1644715388,
+                        "length": 19
+                    }
+                ],
+                "nodes": [
+                    {
+                        // __root
+                        "name": 1,
+                        "parent_node_id": 0,
+                        "field_count": 0,
+                        "fields": []
+                    },
+                    {
+                        // global
+                        "name": 2,
+                        "parent_node_id": 0,
+                        "field_count": 1,
+                        "fields": [
+                            {
+                                "field_type": 3,
+                                "data_type": 8,
+                                "data": 1819888407
+                            }
+                        ]
+                    },
+                    {
+                        // editor
+                        "name": 4,
+                        "parent_node_id": 0,
+                        "field_count": 1,
+                        "fields": [
+                            {
+                                "field_type": 5,
+                                "data_type": 8,
+                                "data": 1
+                            }
+                        ]
+                    },
+                ]
+            }
+
+            canvas.toJSON(['material']).objects.map(obj => {
+                var piece = {
+                    "name": 6,
+                    "parent_node_id": 2,
+                    "field_count": 4,
+                    "fields": [
+                        {
+                            "field_type": 7,
+                            "data_type": 12,
+                            "offset": 76,
+                            "data": 0
+                        },
+                        {
+                            "field_type": 8,
+                            "data_type": 8,
+                            "offset": 72,
+                            "data": 1
+                        },
+                        {
+                            "field_type": 9,
+                            "data_type": 22,
+                            "offset": 146,
+                            "data": [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0,
+                                obj.left, // Left
+                                obj.top, // Top
+                                0.0,
+                                1.0
+                            ]
+                        },
+                        {
+                            "field_type": 10,
+                            "data_type": 22,
+                            "offset": 78,
+                            "data": [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        }
+                    ]
+                };
+
+                var points = [];
+                obj.points.map(point => {
+                    points.push(point.x * -1, point.y * -1) 
+                });
+
+                var properties = {
+                    "name": 11,
+                    "parent_node_id": sted_data["nodes"].length,
+                    "field_count": 6,
+                    "fields": [
+                        {
+                            "field_type": 12,
+                            "data_type": 22,
+                            "offset": 222,
+                            "data": points
+                        },
+                        {
+                            "field_type": 13,
+                            "data_type": 1,
+                            "offset": 214,
+                            "data": 0
+                        },
+                        {
+                            "field_type": 14,
+                            "data_type": 8,
+                            "offset": 218,
+                            "data": obj['material']
+                        },
+                        {
+                            "field_type": 15,
+                            "data_type": 1,
+                            "offset": 216,
+                            "data": 1
+                        },
+                        {
+                            "field_type": 16,
+                            "data_type": 1,
+                            "offset": 217,
+                            "data": 1
+                        },
+                        {
+                            "field_type": 17,
+                            "data_type": 1,
+                            "offset": 215,
+                            "data": 0
+                        }
+                    ]
+                };
+
+                sted_data["nodes"].push(piece);
+                sted_data["nodes"].push(properties);
+            });
+
+            console.log(sted_data);
+            console.log(JSON.stringify(sted_data));
         }
     </script>
 </body>

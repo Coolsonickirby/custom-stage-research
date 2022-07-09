@@ -23,12 +23,486 @@
     "sted_info": {
         "hash_table": [
             {
-                "crc32": 23927491,
-                "len": 12
+                "crc32": 2818540392,
+                "length": 6
+            },
+            {
+                "crc32": 3253298652,
+                "length": 6
+            },
+            {
+                "crc32": 3892677507,
+                "length": 6
+            },
+            {
+                "crc32": 1149756166,
+                "length": 4
+            },
+            {
+                "crc32": 3438408122,
+                "length": 6
+            },
+            {
+                "crc32": 795594,
+                "length": 10
+            },
+            {
+                "crc32": 1154091811,
+                "length": 5
+            },
+            {
+                "crc32": 1002749145,
+                "length": 4
+            },
+            {
+                "crc32": 1579384326,
+                "length": 4
+            },
+            {
+                "crc32": 4164108751,
+                "length": 6
+            },
+            {
+                "crc32": 3072360969,
+                "length": 13
+            },
+            {
+                "crc32": 2277716423,
+                "length": 10
+            },
+            {
+                "crc32": 2612201969,
+                "length": 11
+            },
+            {
+                "crc32": 3274365420,
+                "length": 14
+            },
+            {
+                "crc32": 428223872,
+                "length": 15
+            },
+            {
+                "crc32": 1680711020,
+                "length": 15
+            },
+            {
+                "crc32": 959847560,
+                "length": 16
+            },
+            {
+                "crc32": 1644715388,
+                "length": 19
             }
         ],
-        "node_table": [
-            
+        "nodes": [
+            {
+                "name": 1,
+                "parent_node_id": 0,
+                "field_count": 0,
+                "fields": []
+            },
+            {
+                "name": 2,
+                "parent_node_id": 0,
+                "field_count": 1,
+                "fields": [
+                    {
+                        "field_type": 3,
+                        "data_type": 8,
+                        "data": 1819888407
+                    }
+                ]
+            },
+            {
+                "name": 4,
+                "parent_node_id": 0,
+                "field_count": 1,
+                "fields": [
+                    {
+                        "field_type": 5,
+                        "data_type": 8,
+                        "data": 1
+                    }
+                ]
+            },
+            {
+                "name": 6,
+                "parent_node_id": 2,
+                "field_count": 4,
+                "fields": [
+                    {
+                        "field_type": 7,
+                        "data_type": 12,
+                        "offset": 76,
+                        "data": 0
+                    },
+                    {
+                        "field_type": 8,
+                        "data_type": 8,
+                        "offset": 72,
+                        "data": 1
+                    },
+                    {
+                        "field_type": 9,
+                        "data_type": 22,
+                        "offset": 146,
+                        "data": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            -13.99,
+                            28.54,
+                            0,
+                            1
+                        ]
+                    },
+                    {
+                        "field_type": 10,
+                        "data_type": 22,
+                        "offset": 78,
+                        "data": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": 11,
+                "parent_node_id": 3,
+                "field_count": 6,
+                "fields": [
+                    {
+                        "field_type": 12,
+                        "data_type": 22,
+                        "offset": 222,
+                        "data": [
+                            285.98828125,
+                            28.96484375,
+                            -258.01171875,
+                            24.96484375,
+                            -174.01171875,
+                            -86.03515625,
+                            -166.01171875,
+                            -16.03515625,
+                            188.98828125,
+                            -16.03515625,
+                            262.98828125,
+                            -85.03515625
+                        ]
+                    },
+                    {
+                        "field_type": 13,
+                        "data_type": 1,
+                        "offset": 214,
+                        "data": 0
+                    },
+                    {
+                        "field_type": 14,
+                        "data_type": 8,
+                        "offset": 218,
+                        "data": "8"
+                    },
+                    {
+                        "field_type": 15,
+                        "data_type": 1,
+                        "offset": 216,
+                        "data": 1
+                    },
+                    {
+                        "field_type": 16,
+                        "data_type": 1,
+                        "offset": 217,
+                        "data": 1
+                    },
+                    {
+                        "field_type": 17,
+                        "data_type": 1,
+                        "offset": 215,
+                        "data": 0
+                    }
+                ]
+            },
+            {
+                "name": 6,
+                "parent_node_id": 2,
+                "field_count": 4,
+                "fields": [
+                    {
+                        "field_type": 7,
+                        "data_type": 12,
+                        "offset": 76,
+                        "data": 0
+                    },
+                    {
+                        "field_type": 8,
+                        "data_type": 8,
+                        "offset": 72,
+                        "data": 1
+                    },
+                    {
+                        "field_type": 9,
+                        "data_type": 22,
+                        "offset": 146,
+                        "data": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            -26.99,
+                            169.54,
+                            0,
+                            1
+                        ]
+                    },
+                    {
+                        "field_type": 10,
+                        "data_type": 22,
+                        "offset": 78,
+                        "data": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": 11,
+                "parent_node_id": 5,
+                "field_count": 6,
+                "fields": [
+                    {
+                        "field_type": 12,
+                        "data_type": 22,
+                        "offset": 222,
+                        "data": [
+                            347.98828125,
+                            -90.03515625,
+                            305.98828125,
+                            -126.03515625,
+                            228.98828125,
+                            -142.03515625,
+                            -181.01171875,
+                            -147.03515625,
+                            -233.01171875,
+                            -121.03515625,
+                            -261.01171875,
+                            -101.03515625,
+                            -296.01171875,
+                            -148.03515625,
+                            -206.01171875,
+                            -197.03515625,
+                            222.98828125,
+                            -191.03515625,
+                            322.98828125,
+                            -171.03515625,
+                            367.98828125,
+                            -140.03515625
+                        ]
+                    },
+                    {
+                        "field_type": 13,
+                        "data_type": 1,
+                        "offset": 214,
+                        "data": 0
+                    },
+                    {
+                        "field_type": 14,
+                        "data_type": 8,
+                        "offset": 218,
+                        "data": "14"
+                    },
+                    {
+                        "field_type": 15,
+                        "data_type": 1,
+                        "offset": 216,
+                        "data": 1
+                    },
+                    {
+                        "field_type": 16,
+                        "data_type": 1,
+                        "offset": 217,
+                        "data": 1
+                    },
+                    {
+                        "field_type": 17,
+                        "data_type": 1,
+                        "offset": 215,
+                        "data": 0
+                    }
+                ]
+            },
+            {
+                "name": 6,
+                "parent_node_id": 2,
+                "field_count": 4,
+                "fields": [
+                    {
+                        "field_type": 7,
+                        "data_type": 12,
+                        "offset": 76,
+                        "data": 0
+                    },
+                    {
+                        "field_type": 8,
+                        "data_type": 8,
+                        "offset": 72,
+                        "data": 1
+                    },
+                    {
+                        "field_type": 9,
+                        "data_type": 22,
+                        "offset": 146,
+                        "data": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            8.51,
+                            -142.96,
+                            0,
+                            1
+                        ]
+                    },
+                    {
+                        "field_type": 10,
+                        "data_type": 22,
+                        "offset": 78,
+                        "data": [
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": 11,
+                "parent_node_id": 7,
+                "field_count": 6,
+                "fields": [
+                    {
+                        "field_type": 12,
+                        "data_type": 22,
+                        "offset": 222,
+                        "data": [
+                            -348.01171875,
+                            54.96484375,
+                            -313.01171875,
+                            196.96484375,
+                            316.98828125,
+                            198.96484375,
+                            348.98828125,
+                            41.96484375,
+                            395.98828125,
+                            48.96484375,
+                            335.98828125,
+                            243.96484375,
+                            -329.01171875,
+                            241.96484375,
+                            -413.01171875,
+                            62.96484375
+                        ]
+                    },
+                    {
+                        "field_type": 13,
+                        "data_type": 1,
+                        "offset": 214,
+                        "data": 0
+                    },
+                    {
+                        "field_type": 14,
+                        "data_type": 8,
+                        "offset": 218,
+                        "data": "6"
+                    },
+                    {
+                        "field_type": 15,
+                        "data_type": 1,
+                        "offset": 216,
+                        "data": 1
+                    },
+                    {
+                        "field_type": 16,
+                        "data_type": 1,
+                        "offset": 217,
+                        "data": 1
+                    },
+                    {
+                        "field_type": 17,
+                        "data_type": 1,
+                        "offset": 215,
+                        "data": 0
+                    }
+                ]
+            }
         ]
     }
 }
