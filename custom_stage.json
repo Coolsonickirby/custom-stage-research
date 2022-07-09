@@ -1,0 +1,36 @@
+{
+    "stage_info": {
+        "id": 19483,
+        "version": 1,
+        "unk1": 0,
+        "unk_upload_flag": 0,
+        "unk_upload_value1": 0,
+        "unk_upload_value2": 0,
+        "upload_id": 0,
+        "unk2": 0,
+        "unk3": 0,
+        "unk4": 0,
+        "date": {
+            "year": 2020,
+            "month": 5,
+            "day": 5,
+            "hour": 11,
+            "minute": 20,
+            "seconds": 6
+        },
+        "creator_name": "Coolsonickirby",
+        "country_code": "US",
+        "unk5": 5,
+        "creator_id": 1,
+        "unk6": 5,
+        "stage_name": "Random",
+        "stage_size": 1,
+        "unk_stage_element": 1,
+        "unk_stage_element1": 1,
+        "stage_bgm": "0x123",
+        "stage_speed": 1,
+        "unk7": 0,
+        "unk8": 0,
+        "unk_count": 0
+    }
+}

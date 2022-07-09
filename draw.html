@@ -6,51 +6,50 @@
             border: 2px solid black;
         }
     </style>
+    <script src="./jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
     <canvas width="1000" height="500" id="canvas"></canvas>
+    <img src="./test.jpg" alt="">
     <script>
-        var start_positions = [
-            [2.5, -22.5],
-            [-99.57687377929688, 53.18341827392578],
-            [47.24676513671875, 37.5],
-        ]
-
-        var points_src = [
-            [-77.5, 22.5, 77.5, 22.5, 52.5, -7.5, 12.5, -22.5, -22.5, -22.5, -57.5, -2.5],
-            [-48.48994445800781, 19.171432495117188, 48.48993682861328, 19.171432495117188, 0.031524658203125, -19.171432495117188],
-            [22.24676513671875, 2.8779830932617188, 17.75323486328125, 22.5, -22.24676513671875, 12.5, -12.24676513671875, -22.5],
-        ];
-        var points = [];
-
-        for (var i = 0; i < points_src.length; i++) {
-            var tmp = []
-            for (var j = 0; j < points_src[i].length; j += 2) {
-                tmp.push([points_src[i][j], points_src[i][j + 1]]);
-            }
-            points.push(tmp);
-        }
-
-
-        console.log(points);
-        var canvas = document.getElementById("canvas");
-
-        var ctx = canvas.getContext("2d");
-        var transX = canvas.width * 0.5,
-            transY = canvas.height * 0.5;
-        ctx.translate(transX, transY);
-
-        for (var i = 0; i < points.length; i++) {
-            ctx.moveTo(start_positions[i][0], start_positions[i][1]);
-            ctx.beginPath();
-            for (var j = 0; j < points[i].length; j++) {
-                ctx.lineTo((points[i][j][0] - start_positions[i][0]) * -1, (points[i][j][1] + start_positions[i][1]) * -1);
-            }
-            ctx.lineTo((points[i][0][0] - start_positions[i][0]) * -1, (points[i][0][1] + start_positions[i][1]) * -1);
-            ctx.stroke();
-            ctx.closePath();
-        }
+        $.ajax({
+            url: "./data.json",
+            success: (data) => {
+                var start_positions = data["starting_points"];
+                var points_src = data["points_src"];
+                var points = [];
+        
+                for (var i = 0; i < points_src.length; i++) {
+                    var tmp = []
+                    for (var j = 0; j < points_src[i].length; j += 2) {
+                        tmp.push([points_src[i][j], points_src[i][j + 1]]);
+                    }
+                    points.push(tmp);
+                }
+        
+        
+                console.log(points);
+                var canvas = document.getElementById("canvas");
+        
+                var ctx = canvas.getContext("2d");
+                var transX = canvas.width * 0.5,
+                    transY = canvas.height * 0.5;
+                ctx.translate(transX, transY);
+        
+                for (var i = 0; i < points.length; i++) {
+                    ctx.moveTo(start_positions[i][0], start_positions[i][1]);
+                    ctx.beginPath();
+                    for (var j = 0; j < points[i].length; j++) {
+                        ctx.lineTo((points[i][j][0] - start_positions[i][0]) * -1, (points[i][j][1] + start_positions[i][1]) * -1);
+                    }
+                    ctx.lineTo((points[i][0][0] - start_positions[i][0]) * -1, (points[i][0][1] + start_positions[i][1]) * -1);
+                    ctx.stroke();
+                    ctx.closePath();
+                }
+            },
+        });
+        
     </script>
 </body>
 

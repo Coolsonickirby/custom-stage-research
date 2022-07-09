@@ -1,4 +1,4 @@
-import struct
+import struct, json
 
 labels = {
     "0xC1E965DC": "__root",
@@ -68,7 +68,8 @@ stage_info["creator_id2"] = struct.unpack("<Q", data.read(8))[0]
 
 data.seek(0xC4, 0) # Absolute seeking to 0xC4
 
-stage_info["unk6"] = data.read(0x44)
+data.read(0x44)
+# stage_info["unk6"] = data.read(0x44)
 stage_info["stage_hash"] = struct.unpack("<I", data.read(4))[0]
 stage_info["stage_name_length"] = struct.unpack("<I", data.read(4))[0] * 2
 stage_info["stage_name"] = data.read(stage_info["stage_name_length"]).decode("utf-16").replace("\x00", "")
@@ -91,6 +92,11 @@ stage_info["unk_count"] = struct.unpack("<I", data.read(4))[0]
 stage_info["sted_length"] = struct.unpack("<I", data.read(4))[0]
 stage_info["jpeg_length"] = struct.unpack("<I", data.read(4))[0]
 
+with open("header_local.json", "w+") as f:
+    json.dump(stage_info, f, indent=4)
+
+data.close()
+exit()
 # Seek to beginning of STED
 sted_start_pos = 0x198
 data.seek(sted_start_pos, 0)
@@ -149,6 +155,9 @@ for node in sted_info["node_table"]:
             for z in range(arr_len):
                 field["data"].append(struct.unpack("<f", data.read(4))[0])
 
+
+starting_points = []
+points = []
 node_id = 0
 for node in sted_info["node_table"]:
     hash = "0x%s" % hex(sted_info["hash_table"][node["name"]]["crc32"])[2:].upper()
@@ -166,20 +175,27 @@ for node in sted_info["node_table"]:
         #     print("\t\t - Data: %s - Hash Len: %s" % (labels[hash] if hash in labels else hash, hex(sted_info["hash_table"][field["data"]]["length"])))
         print()
     print()
-# for node in sted_info["node_table"]:
-#     hash = "0x%s" % hex(sted_info["hash_table"][node["name"]]["crc32"])[2:].upper()
-#     if hash != "0x87C331C7":
-#         continue
-#     for field in node["fields"]:
-#         hash = "0x%s" % hex(sted_info["hash_table"][field["field_type"]]["crc32"])[2:].upper()
-#         if field["data_type"] == 0x16:
-#             print("%s," % field["data"])
 
+
+# Write info to file for draw.html
+for node in sted_info["node_table"]:
+    hash = "0x%s" % hex(sted_info["hash_table"][node["name"]]["crc32"])[2:].upper()
+    if hash == "0x44CA0B23": # Piece
+        matrix = node["fields"][2]["data"]
+        starting_points.append([matrix[-4], matrix[-3]])
+    elif hash == "0x87C331C7": # Properties
+        points.append(node["fields"][0]["data"])
+
+with open("data.json", "w+") as f:
+    json.dump({
+        "starting_points": starting_points,
+        "points_src": points
+    }, f, indent=4)
 
 # Seek to beginning of JPEG and extract it
-# data.seek(0xC998, 0)
-# with open('test.jpg', "w+b") as f:
-#     f.write(data.read(stage_info["jpeg_length"]))
+data.seek(0xC998, 0)
+with open('test.jpg', "w+b") as f:
+    f.write(data.read(stage_info["jpeg_length"]))
 
 # print(sted_info)
 data.close()
